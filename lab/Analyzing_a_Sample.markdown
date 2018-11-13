@@ -73,5 +73,4 @@ This will give us,
 
 Keep this in mind when reviewing extracting strings from a sample! It's an easy way to malware authors to *sort of* obfuscate their code, without really requiring too much effort on their part.
 
-
-
+Sometimes it can also be useful to do general Google searches for the package name of the sample you're investigating. For example, with this Tele X sample, we can look to [this Talos blog post](https://blog.talosintelligence.com/2018/11/persian-stalker.html) for details on the malware family!
