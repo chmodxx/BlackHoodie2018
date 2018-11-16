@@ -42,5 +42,5 @@ Set, **Filetype: android** and **Verdict: Malicious**.
 
 Android malware tends to be a bit harder to find without a premium account to a site like *Virus Total*. 
 
-## [NEXT](https://github.com/chmodxx/BlackHoodie2018/blob/master/lab/Analyzing_a_Sample.markdown)
+## [NEXT](https://github.com/chmodxx/BlackHoodie2018/blob/master/lab/Using_Malware_Reports.markdown)
  
