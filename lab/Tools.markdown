@@ -12,33 +12,13 @@ The instructions for installing these tools are included below, *just* in case y
 
 **★ Create a new virtual machine, setting the `type` to `Linux` and the Version to `Debian`**
 
-![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Create_VM.png)
-
 **★ Bump up the memory size to allocate to the VM from the suggested 1024MB to ~8192MB.** Allocating too little RAM will result in a corrupted display when you try to install the image.
 
-![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Set_VM_Memory.png)
-
-**★ Create a virtual hard disk with a minimum of 10 GB of space.** I tend to add a bit more, since I never know what else I may do with the VM in the future.
-
-![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Create_VM_HDD.png)
-
-I also tend to select `Fixed size` hard disk file settings for my VMs because I care more about speed than being able to dynamically allocate additional space in the future.
-
-![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Fixed_Size_HDD.png)
+**★ Create a virtual hard disk with a minimum of 10 GB of space.** I tend to add a bit more, since I never know what else I may do with the VM in the future. I also tend to select `Fixed size` hard disk file settings for my VMs because I care more about speed than being able to dynamically allocate additional space in the future.
 
 **★ Select _Create_**
 
-**Important!** Before opening the new VM, we have to update settings in its display. The latest Lubuntu release requires that you bump up the processing power of the VM before you can access a display that isn't wildly corrupted (ie, the same issue you'd experience with allocating too little RAM).
-
-**★ Right-click on the VM and open settings.** Navigate to _System_ and update your settings as shown below:
-
-![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Right_Click_New_VM.png)
-
-![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Set_4_cores.png)
-
-**★ Hit okay, and your settings will save.**
-
-**★ Double click the new VM in the left-hand column.** Select your `Lubutunu` ISO and continue with the installation process.
+**★ Double click the new VM in the left-hand column.** Select your OVA file and continue with the installation process.
 
 ##### Congratulations! You now have a virtual machine 🎉
 
