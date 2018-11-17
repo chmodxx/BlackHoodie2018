@@ -6,25 +6,25 @@ The tools we'll be using today are very usable in macOS or Windows. However, for
 
 The instructions for installing these tools are included below, *just* in case you'd like to set up your own Android hacking machine at home. 
 
-**★ Download the `BlackHoodie Kali` image [here](http://cdimage.ubuntu.com/lubuntu/releases/18.04/release/lubuntu-18.04.1-desktop-amd64.iso),**
+**★ Download the `BlackHoodie Kali` image [here](https://drive.google.com/open?id=14ZKHoTUwk6U-WTywjKcs_m6w8QIY30pm),**
 
 **★ Install VirtualBox for macOS or Windows by clicking [here](https://download.virtualbox.org)**.  
 
 **★ Create a new virtual machine, setting the `type` to `Linux` and the Version to `Debian`**
 
-![](/img/Create_VM.png)
+![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Create_VM.png)
 
 **★ Bump up the memory size to allocate to the VM from the suggested 1024MB to ~8192MB.** Allocating too little RAM will result in a corrupted display when you try to install the image.
 
-![](/img/Set_VM_Memory.png)
+![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Set_VM_Memory.png)
 
 **★ Create a virtual hard disk with a minimum of 10 GB of space.** I tend to add a bit more, since I never know what else I may do with the VM in the future.
 
-![](/img/Create_VM_HDD.png)
+![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Create_VM_HDD.png)
 
 I also tend to select `Fixed size` hard disk file settings for my VMs because I care more about speed than being able to dynamically allocate additional space in the future.
 
-![](/img/Fixed_Size_HDD.png)
+![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Fixed_Size_HDD.png)
 
 **★ Select _Create_**
 
@@ -32,15 +32,13 @@ I also tend to select `Fixed size` hard disk file settings for my VMs because I 
 
 **★ Right-click on the VM and open settings.** Navigate to _System_ and update your settings as shown below:
 
-![](/img/Right_Click_New_VM.png)
+![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Right_Click_New_VM.png)
 
-![](/img/Set_4_cores.png)
+![](https://github.com/chmodxx/Auditing-Pentesting-Android-Apps/tree/master/img/Set_4_cores.png)
 
 **★ Hit okay, and your settings will save.**
 
 **★ Double click the new VM in the left-hand column.** Select your `Lubutunu` ISO and continue with the installation process.
-
-![](/img/Lubuntu_startup.png)
 
 ##### Congratulations! You now have a virtual machine 🎉
 
