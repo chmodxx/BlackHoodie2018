@@ -14,7 +14,6 @@ The instructions for installing these tools are included below, *just* in case y
 
 ![](/img/Create_VM.png)
 
-
 **★ Bump up the memory size to allocate to the VM from the suggested 1024MB to ~8192MB.** Allocating too little RAM will result in a corrupted display when you try to install the image.
 
 ![](/img/Set_VM_Memory.png)
@@ -44,31 +43,6 @@ I also tend to select `Fixed size` hard disk file settings for my VMs because I 
 ![](/img/Lubuntu_startup.png)
 
 ##### Congratulations! You now have a virtual machine 🎉
-
-**★ Install the Android SDK CLI tools**
-
-**If CLI tools don't work, there's always [Android Studio](https://developer.android.com/studio/#downloads)**
-
-```shell
-wget https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip
-mkdir android-sdk
-mv sdk-tools-linux-4333796.zip android-sdk/
-unzip sdk-tools-linux-*.zip
-```
-
-** Add these new paths to your...path
-```
-vim ~/.bash_profile
-export ANDROID_HOME=<path>
-export ANDROID_AVD_HOME=/root/.android/avd
-```
-
-**★  Create a device**
-```shell
-sudo ./sdkmanager "system-images;android-25;google_apis;x86"
-sudo ./sdkmanager --licenses
-sudo ./avdmanager create avd -n foo -k "system-images;android-25;google_apis;x86"
-```
 
 ## Setting Up Our Reversing Environment
 
