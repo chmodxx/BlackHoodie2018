@@ -18,7 +18,7 @@ The `-o` here allows us to specify the output location of the decompiled files!
 
 #### Create an executable `.jar` with Dex2Jar for `classes.dex`. 
 
-  1.	In the root `Dex2Jar` directory run: `./gradlew distZip`
+	1.	In the root `Dex2Jar` directory run: `./gradlew distZip`
 	2.	`cd dex-tools/build/distributions`
 	3.	Unzip the file `dex-tools-2.1-SNAPSHOT.zip` (file size should be ~5 MB)
 	4.	Run `d2j-dex2jar.sh` from the unzipped directory
