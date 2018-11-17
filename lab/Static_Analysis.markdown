@@ -53,7 +53,7 @@ Now let's poke around at the malware's classes.
 	3.	Unzip the file `dex-tools-2.1-SNAPSHOT.zip` (file size should be ~5 MB)
 	4.	Run `d2j-dex2jar.sh` from the unzipped directory
   
-  `$ sh d2j-dex2jar.sh classes.dex`
+  `$ sh d2j-dex2jar.sh -f ~/path/to/apk_to_decompile.apk`
   
 #### Repeat with `classes2.dex`
 
