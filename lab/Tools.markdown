@@ -115,6 +115,4 @@ wget https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui_1
 sudo dpkg -i jd-gui_x.x.x-x_all.deb 
 ```
 
-## Once you have these tools installed, let's talk about some handy command line functions:
-
-## [Next](https://github.com/chmodxx/BlackHoodie2018/blob/master/lab/CLI_Kung_Fu.markdown)
+## Once you have these tools installed, let's talk about some handy command line functions: [Next](https://github.com/chmodxx/BlackHoodie2018/blob/master/lab/CLI_Kung_Fu.markdown)
