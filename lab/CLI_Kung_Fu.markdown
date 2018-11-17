@@ -54,6 +54,5 @@ And if it's a large search, you can send _that_ to a file!
 
 `$ strings classes.dex | grep "http" > ~/Desktop/some_found_stuff.txt`
 
-
-
+## Let's do some threat hunting! [NEXT](https://github.com/chmodxx/BlackHoodie2018/blob/master/lab/Finding_Android_Samples.markdown)
 
