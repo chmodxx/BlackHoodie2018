@@ -8,7 +8,7 @@ The command line is your best friend for quickly determining some key informatio
 
 One of the best places to look for juicy malware hints is in the strings defined by the application. Many times, malware authors won't obfuscate their code or will forget to remove certain logging messages. These can be a great way to figure out what the author is trying to attempt!
 
-`strings classes.dex`
+`$ strings classes.dex`
 
 ### Base64 Encoded Strings
 
@@ -18,7 +18,7 @@ If you find a Base64-encoded string like:
 
 In order to decode this, we can use the terminal:
 
-`echo "aHR0cHM6Ly93d3cuc3B5aHVtYW4uY29tL3YxL2ZpbGVVcGxvYWQ=" | base64 -D`
+`$ echo "aHR0cHM6Ly93d3cuc3B5aHVtYW4uY29tL3YxL2ZpbGVVcGxvYWQ=" | base64 -D`
 
 This will give us, 
 
@@ -31,7 +31,7 @@ Keep this in mind when reviewing extracting strings from a sample!
 
 As we heard on Friday, malware authors like to also pretend that certain files they're forcing a device to download are non-executable. But! We can check that.
 
-`file <FILE NAME>`
+`$ file <FILE NAME>`
 
 This will tell you what kind of file type you're dealing with & how to either unpack it, or execute it.
 
