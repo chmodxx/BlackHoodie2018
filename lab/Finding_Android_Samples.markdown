@@ -24,9 +24,7 @@ This is where the fun begins. We're going to look at a general search for malici
 
 Click inside the search bar on the top right-hand corner. You'll see options for YARA Search, String Search and Report Search. Click Report Search.
 
-[ Image 1 ] 
-
-`![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)`
+![](/images/hybrid-analysis-1.png)
 
 **★ Specify search criteria.**
 
@@ -36,7 +34,7 @@ To get an idea of how large the collection of Android malware is on H-A, let's j
 
 Set, **Filetype: android** and **Verdict: Malicious**.
 
-[Image 2]
+![](/images/hybrid-analysis-2.png)
 
 **★ Click "Search Database"**
 
